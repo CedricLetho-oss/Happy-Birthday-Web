@@ -1,0 +1,58 @@
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom right, #fff0f5, #ffe4e1);
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #333;
+    }
+
+h1 {
+    font-family: fantasy;
+    color: palevioletred;
+}
+
+#menu {
+    background-color: rgb(91, 134, 143);
+    color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.message {    
+    color: rgb(122, 4, 43);
+    margin: 20px 0;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+#menu a {
+    color: palevioletred;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+#menu a:hover {
+    background-color: rgb(122, 4, 43);
+    color: white;
+}
+
+.signature {
+      font-weight: bold;
+      margin-top: 20px;
+      font-size: 1.2rem;
+    }
